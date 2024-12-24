@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Paprika&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Paprika&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* Custom margin for each slide */
+
+  .slick-slide {
+    /* margin-right: 16px !important; */
+  padding: 0px 10px !important;
+  }
+    
+
+  /* Custom CSS for slick slider */
+.slick-dots {
+  bottom: -30px; /* Adjust the position of the dots */
+  z-index: 1;
+}
+
+.slick-dots li button:before {
+  font-size: 16px; /* Default size for the dots */
+  color: #183835; /* Color of the dots */
+}
+
+/* Make dots larger on small screens */
+@media (max-width: 768px) {
+  .slick-dots li button:before {
+    font-size: 20px; /* Increase size on mobile */
+  }
+
+  /* Reduce space between the dots on small devices */
+  .slick-dots {
+    bottom: -20px; 
+  }
+}
